@@ -6,22 +6,34 @@ font-family: 'Barlow', sans-serif;*/
 :root {
   --fuentePrincipal: 'Roboto', sans-serif;
   --fuentSecundaria: 'Josefin Sans', sans-serif;
-  --fuenteTerciaria: font-family: 'Dancing Script', cursive;
+  --fuenteTerciaria: 'Dancing Script', cursive;
+  --fuenteCuarta: font.f
 }
 
 header {
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 header div.logo {
+  text-align: center;
+}
 
+div.logo h2 {
+  margin-top: 0;
+  font-family: var(--fuenteTerciaria);
+  font-size: 2em;
 }
 
 .logo img {
-
+  height: 100px;
+  width: 130px;
 }
 
 header div.nav {
+  display: flex;
+  margin: 0;
 }
 
 .nav ul {
