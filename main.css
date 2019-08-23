@@ -2,12 +2,15 @@
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Dancing Script', cursive;
 font-family: 'Barlow', sans-serif;*/
-
 :root {
   --fuentePrincipal: 'Roboto', sans-serif;
   --fuentSecundaria: 'Josefin Sans', sans-serif;
   --fuenteTerciaria: 'Dancing Script', cursive;
   --fuenteCuarta: font.f
+}
+
+body {
+  margin: 0;
 }
 
 header {
@@ -18,12 +21,19 @@ header {
 
 header div.logo {
   text-align: center;
+  background-color: #FFEC5E;
 }
 
 div.logo h2 {
-  margin-top: 0;
+  margin: 0;
   font-family: var(--fuenteTerciaria);
   font-size: 2em;
+  color: black;
+}
+
+div.logo p {
+  padding-bottom: 1em;
+  font-family: var(--fuenteTerciaria);
 }
 
 .logo img {
@@ -34,14 +44,22 @@ div.logo h2 {
 header div.nav {
   display: flex;
   margin: 0;
+  justify-content: center;
 }
 
 .nav ul {
-  display: flex;
+ display: flex;
+ list-style: none;
+ margin-top: 2em;
 }
 
 nav ul li {
+  margin: 0 1em;
+  font-size: 1.1em;
+  font-family: var(--fuentePrincipal);
+}
 
+nav ul li span {
 }
 
 div.social-bar {
@@ -49,5 +67,5 @@ div.social-bar {
 }
 
 .social-bar span {
-
+  margin: auto;
 }
