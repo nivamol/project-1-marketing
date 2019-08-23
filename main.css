@@ -4,7 +4,9 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Barlow', sans-serif;*/
 
 :root {
-
+  --fuentePrincipal: 'Roboto', sans-serif;
+  --fuentSecundaria: 'Josefin Sans', sans-serif;
+  --fuenteTerciaria: font-family: 'Dancing Script', cursive;
 }
 
 header {
