@@ -10,7 +10,7 @@ font-family: 'Barlow', sans-serif;*/
 }
 
 header {
-
+  display: flex;
 }
 
 header div.logo {
@@ -22,7 +22,10 @@ header div.logo {
 }
 
 header div.nav {
+}
 
+.nav ul {
+  display: flex;
 }
 
 nav ul li {
