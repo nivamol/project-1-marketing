@@ -6,7 +6,7 @@ font-family: 'Barlow', sans-serif;*/
   --fuentePrincipal: 'Roboto', sans-serif;
   --fuentSecundaria: 'Josefin Sans', sans-serif;
   --fuenteTerciaria: 'Dancing Script', cursive;
-  --fuenteCuarta: font.f
+  --colorPrimario: #FFEC5E;
 }
 
 body {
@@ -57,6 +57,17 @@ nav ul li {
   margin: 0 1em;
   font-size: 1.1em;
   font-family: var(--fuentePrincipal);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: var(--colorPrimario);
+  background-color: black;
+  border-radius: 5px;
 }
 
 nav ul li span {
