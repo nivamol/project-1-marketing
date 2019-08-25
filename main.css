@@ -84,17 +84,27 @@ div.social-bar {
 /*hero*/
 
 section.hero {
+  display: flex;
+  align-items: center;
 
 }
 
 .hero .heros {
-
+  flex: 1;
+  height: 15em;
+  margin: 4em 2em;
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 20px;
 }
 
 .heros p {
 
 }
 
+.heros p:nth-of-type(1){
+  color: #DF2F2E;
+}
 .heros h2 {
-  
+
 }
