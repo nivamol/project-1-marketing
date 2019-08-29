@@ -116,16 +116,24 @@ section.lo-ultimo {
 
 }
 
-.lo-ultimo__cards {
+.lo-ultimo__title h2{
 
 }
 
-.lo-ultimo__cards p {
+div.lo-ultimo__post-cards {
+  
+}
+
+div.lo-ultimo__post-cards div.cards {
+}
+
+div.lo-ultimo__post-cards div.cards img {
+  width: 200px;
+  height: 250px;
 
 }
 
 .lo-ultimo__cards img {
-  
 }
 
 .lo-ultimo__cards h2 {
