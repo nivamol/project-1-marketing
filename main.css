@@ -121,7 +121,7 @@ section.lo-ultimo {
 }
 
 div.lo-ultimo__post-cards {
-  
+  display: flex;
 }
 
 div.lo-ultimo__post-cards div.cards {
