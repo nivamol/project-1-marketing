@@ -105,30 +105,58 @@ section.hero {
 .heros p:nth-of-type(1){
   color: #DF2F2E;
 }
-
 .heros h2 {
 
 }
 
-/*ultimo*/
+/*section lo-ultimo */
+
 
 section.lo-ultimo {
 
 }
 
-.lo-ultimo div.titulos {
+.lo-ultimo__title h2{
 
 }
 
-.titulos h1 {
-  
+div.lo-ultimo__post-cards {
+  display: flex;
 }
 
-.titulos h3 {
+div.lo-ultimo__post-cards div.cards {
+  margin: 0 40px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+div.lo-ultimo__post-cards div.cards img {
+  width: 100%;
+  height: 50%;
+  border-radius: 30px 30px 0 0 ;
+  text-align: center;
+}
+
+.cards img {
 
 }
 
-.titulos p {
-  
+.cards h2 {
+  font-family: var(--fuentSecundaria);
+  padding: 0 40px;
+}
+
+.cards p:nth-of-type(1) {
+  margin-bottom: 1.5em;
+  font-family: var(--fuentSecundaria);
+  color: #DF2F2E;
+}
+
+.cards p {
+  padding: 0 40px;
+  font-family: var(--fuentePrincipal);
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 5em; 
 }
 
