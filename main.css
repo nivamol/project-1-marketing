@@ -134,17 +134,29 @@ div.lo-ultimo__post-cards div.cards img {
   width: 100%;
   height: 50%;
   border-radius: 30px 30px 0 0 ;
+  text-align: center;
+}
+
+.cards img {
 
 }
 
-.lo-ultimo__cards img {
+.cards h2 {
+  font-family: var(--fuentSecundaria);
+  padding: 0 40px;
 }
 
-.lo-ultimo__cards h2 {
-
+.cards p:nth-of-type(1) {
+  margin-bottom: 1.5em;
+  font-family: var(--fuentSecundaria);
+  color: #DF2F2E;
 }
 
-.lo-ultimo__cards p:nth-of-type(3) {
-
+.cards p {
+  padding: 0 40px;
+  font-family: var(--fuentePrincipal);
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 5em; 
 }
 
