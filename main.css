@@ -128,8 +128,8 @@ div.lo-ultimo__post-cards div.cards {
 }
 
 div.lo-ultimo__post-cards div.cards img {
-  width: 200px;
-  height: 250px;
+  width: 100%;
+  height: 50%;
 
 }
 
